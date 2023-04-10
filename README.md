@@ -3,8 +3,7 @@
 ## Instrucciones de instalación
 
 1. Instalar dependencias ejecutando `pip install -r requirements.txt`
-2. Crear archivo `.env` para variables de entorno
-3. Setear variable `WEBHOOK_URL` para saber a qué URL hacer el POST
+2. Setear variable `WEBHOOK_URL` en el archivo `.env` para saber a qué URL hacer el POST
 
 ## Instrucciones de uso
 
