@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  scraper:
+    build: .
+    restart: always
+    volumes:
+      - ./already_seen.json:/app/already_seen.json
+    env_file:
+      - .env
